@@ -1,3 +1,4 @@
+# this is from here: https://pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv/
 # import the required packages
 from types import GeneratorType
 from imutils.video import VideoStream
@@ -84,7 +85,7 @@ while True:
 	# if the `q` key is pressed, break from the lop
     if key == ord("q"):
         break
-    
+
 # cleanup the camera and close any open windows
 vs.stop() if args.get("video", None) is None else vs.release()
 cv2.destroyAllWindows()
