@@ -16,7 +16,7 @@ args=vars(ap.parse_args())
 
 #if the video argument is none, then we are reading from the webcam
 if args.get("video",None) is None:
-    vs=VideoStream(src=0).start()
+    vs=VideoStream(src=1).start()  #src=0 does not give an image.
     time.sleep(2.0)
 #otherwise we are reading from a file
 else:
