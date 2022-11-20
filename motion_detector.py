@@ -1,4 +1,5 @@
 # this is from here: https://pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv/
+# Very simple motion detection
 # import the required packages
 from types import GeneratorType
 from imutils.video import VideoStream
